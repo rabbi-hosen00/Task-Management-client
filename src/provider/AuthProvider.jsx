@@ -86,7 +86,7 @@ const AuthProvider = ({ children }) => {
                 };
     
                 // Correct axios post request
-                axios.post("http://localhost:5000/login", user, { withCredentials: true })
+                axios.post("https://task-manager-server-eight-ashy.vercel.app/login", user, { withCredentials: true })
                 
                     .then((res) => {
                         console.log("login token", res.data);
@@ -97,7 +97,7 @@ const AuthProvider = ({ children }) => {
                         setLoading(false);
                     });
             } else {
-                axios.post("http://localhost:5000/logout", {}, { withCredentials: true })
+                axios.post("https://task-manager-server-eight-ashy.vercel.app/logout", {}, { withCredentials: true })
                     .then((res) => {
                         console.log("logout", res.data);
                         setLoading(false);

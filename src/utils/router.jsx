@@ -6,8 +6,7 @@ import Login from "../components/Login";
 import Register from "../components/Register";
 import ErrorPage from "../components/ErrorPage";
 
-import AddTask from "../pages/AddTask"
-import ManageTask from "../pages/ManageTask"
+
 
 
 
@@ -30,14 +29,7 @@ const router = createBrowserRouter([
                 path: "/register",
                 element: <Register></Register>,
             },
-            {
-                path: "/add-task",
-                element: <AddTask></AddTask>
-            },
-            {
-                path: "/manage-task",
-                element: <ManageTask></ManageTask>
-            },
+           
          
             {
                 path: "*",
