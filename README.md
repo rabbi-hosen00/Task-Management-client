@@ -4,7 +4,7 @@
 Task Management is a web-based application that enables users to add, edit, delete, and reorder tasks using a drag-and-drop interface. Tasks are categorized into three sections: **To-Do, In Progress, and Done**. The platform ensures **real-time synchronization**, allowing seamless task management with instant updates stored in the database.
 
 ### 🌐 Live URL
-[Task Management Application](https://task-management-f6e55.web.app/)
+[Task Management Application](https://task-management-b84c6.web.app/)
 
 ---
 
